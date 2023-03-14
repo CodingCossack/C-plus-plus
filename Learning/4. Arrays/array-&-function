@@ -1,0 +1,19 @@
+// Create a program to find the product of the first and last elements of an array.
+
+#include <iostream>
+using namespace std;
+
+int find_product(int n1, int n2) {		// function to find product and return it
+    int product = n1 * n2;
+    return product;
+}
+
+int main() {
+
+    int numbers[4] = {4, 9, 2, 7};
+
+    int result = find_product(4, 7);		// call the function with first and last element as arguments
+    cout << result;						// print the returned value
+
+    return 0;
+}
